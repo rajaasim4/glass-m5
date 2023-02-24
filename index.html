@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Glass M5</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="Navbar">
+          <div class="Nav-logo">
+            <h3>
+              <a href=""> GlassM5 </a>
+            </h3>
+          </div>
+          <div class="Main-nav">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Service</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+            <div class="Nav-btn">
+              <button>Send Message</button>
+            </div>
+          </div>
+          <div class="Hamburger">
+            <button onclick="changeHamburgerStyle()">
+              <span id="Hamburger_bar1"></span>
+              <span id="Hamburger_bar2"></span>
+              <span id="Hamburger_bar3"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <section class="Hero-section">
+        <div class="Hero-section-main">
+          <div class="Hero-section-left transparent-card">
+            <h1>Photographer</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              ultrices risus eget nunc ullamcorper, ut consectetur eros mattis.
+              Praesent lobortis in est sit amet pretium.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="Hero-section-right"></div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- OurServices Section -->
+      <section class="OurServices">
+        <h2>Our Service</h2>
+        <div class="OurServices-main">
+          <div class="OurServices-card transparent-card">
+            <div class="Service-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h4>Interior Photography</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus eget sapien pellentesque porttitor nec ut velit
+            </p>
+          </div>
+          <div class="OurServices-card transparent-card">
+            <div class="Service-icon">
+              <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <h4>Portrait Photo</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus eget sapien pellentesque porttitor nec ut velit
+            </p>
+          </div>
+          <div class="OurServices-card transparent-card">
+            <div class="Service-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h4>Art Photo</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus eget sapien pellentesque porttitor nec ut velit
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="AboutUs">
+        <div class="AboutUs-main">
+          <div class="AboutUs-left">
+            <img src="./Assets/AboutUs.jpeg" alt="" />
+          </div>
+          <div class="AboutUs-right transparent-card">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              ultrices risus eget nunc ullamcorper, ut consectetur eros mattis.
+              Praesent lobortis in est sit amet pretium. Fusce ante libero,
+              ultrices sed ullamcorper quis, volutpat in metus. Mauris pulvinar,
+              neque in porttitor faucibus, tortor enim
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="Pricing">
+        <h2>Pricing</h2>
+        <div class="Pricing-main">
+          <div class="Pricing-cards transparent-card">
+            <h1>$39</h1>
+            <h2>Start</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus sapien pellentesque.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="Pricing-cards transparent-card">
+            <h1>$59</h1>
+            <h2>Basic</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus sapien pellentesque.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="Pricing-cards transparent-card">
+            <h1>$89</h1>
+            <h2>Pro</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu
+              risus sapien pellentesque.
+            </p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </section>
+      <section class="OurWork">
+        <h2>Our Work</h2>
+        <div class="OurWork-main">
+          <div class="OurWork-cards">
+            <img src="./Assets/Work_img_1.jpg" alt="" />
+            <div class="OurWork-overlay">
+              <h5>Interior Photographer</h5>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+          <div class="OurWork-cards">
+            <img src="./Assets/Work_img_2.jpg" alt="" />
+            <div class="OurWork-overlay">
+              <h5>Portrait Photography</h5>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+          <div class="OurWork-cards">
+            <img src="./Assets/Work_img_3.jpg" alt="" />
+            <div class="OurWork-overlay">
+              <h5>Art Photography</h5>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="Competence">
+        <div class="Competence-main transparent-card">
+          <h4>PROGRESS</h4>
+          <h2>Our Competence</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            maxime deleniti quisquam eius quaerat repellat odio voluptate
+            temporibus minima ipsa iusto voluptatem magnam laudantium nesciunt
+            sed id, corrupti soluta pariatur, voluptates vel ipsum asperiores.
+            Aliquam explicabo quaerat maiores eveniet veritatis reiciendis,
+            sequi molestiae, soluta, aperiam amet nam quod vero perspiciatis.
+          </p>
+          <div class="Competence_bars_section">
+            <div class="Competence_bars">
+              <div class="Competence_bars_text">
+                <h5>Interior Photography</h5>
+                <h5>85%</h5>
+              </div>
+              <div class="Competence_bars_main">
+                <div class="Competence_progress" id="progress_bar1"></div>
+              </div>
+            </div>
+            <div class="Competence_bars">
+              <div class="Competence_bars_text">
+                <h5>Portrait Photography</h5>
+                <h5>70%</h5>
+              </div>
+              <div class="Competence_bars_main">
+                <div class="Competence_progress" id="progress_bar2"></div>
+              </div>
+            </div>
+            <div class="Competence_bars">
+              <div class="Competence_bars_text">
+                <h5>Art Photography</h5>
+                <h5>90%</h5>
+              </div>
+              <div class="Competence_bars_main">
+                <div class="Competence_progress" id="progress_bar3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="Faq">
+        <div class="Faq-main transparent-card">
+          <div class="Faq-left">
+            <h2>Frequently Asked Question</h2>
+            <div class="Faq-main-section">
+              <div class="Faq-heading">
+                <h4>Lorem, ipsum dolor.</h4>
+                <span class="Faq-icon">+</span>
+              </div>
+              <div class="Faq-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nihil nulla illum voluptate labore ab! Consequatur blanditiis
+                  nihil iure sunt perferendis ipsa placeat laboriosam, aliquam
+                  facilis voluptatum pariatur nobis, sed eveniet.
+                </p>
+              </div>
+            </div>
+            <div class="Faq-main-section">
+              <div class="Faq-heading">
+                <h4>Lorem, ipsum dolor.</h4>
+
+                <span class="Faq-icon">+</span>
+              </div>
+              <div class="Faq-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nihil nulla illum voluptate labore ab! Consequatur blanditiis
+                  nihil iure sunt perferendis ipsa placeat laboriosam, aliquam
+                  facilis voluptatum pariatur nobis, sed eveniet.
+                </p>
+              </div>
+            </div>
+            <div class="Faq-main-section">
+              <div class="Faq-heading">
+                <h4>Lorem, ipsum dolor.</h4>
+                <span class="Faq-icon">+</span>
+              </div>
+              <div class="Faq-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nihil nulla illum voluptate labore ab! Consequatur blanditiis
+                  nihil iure sunt perferendis ipsa placeat laboriosam, aliquam
+                  facilis voluptatum pariatur nobis, sed eveniet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="Faq-right">
+            <img src="./Assets/Faq.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="Clients">
+        <h2>Our Clients</h2>
+        <h4>We love to work with our Clients</h4>
+        <div class="Clients-main">
+          <div class="Clients-card transparent-card">
+            <img src="./Assets/Client_img_1.png" alt="" />
+          </div>
+          <div class="Clients-card transparent-card">
+            <img src="./Assets/Client_img_2.png" alt="" />
+          </div>
+          <div class="Clients-card transparent-card">
+            <img src="./Assets/Client_img_3.png" alt="" />
+          </div>
+          <div class="Clients-card transparent-card">
+            <img src="./Assets/Client_img_4.png" alt="" />
+          </div>
+          <div class="Clients-card transparent-card">
+            <img src="./Assets/Client_img_5.png" alt="" />
+          </div>
+          <div class="Clients-card transparent-card">
+            <img src="./Assets/Client_img_6.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="Email">
+        <div class="Email-content transparent-card">
+          <h4>HAVE A NEW PROJECT IN MIND?</h4>
+          <h1>Say Hello</h1>
+          <a href=""> hello@glassm5.com </a>
+        </div>
+      </section>
+      <section class="Maps">
+        <div class="Maps-main">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6045.252943019546!2d-73.98510700000001!3d40.748244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0xaca05ca48ab5ac2c!2s350%205th%20Ave%2C%20New%20York%2C%20NY%2010118!5e0!3m2!1sen!2sus!4v1675496349273!5m2!1sen!2sus"
+            width="100%"
+            height="450"
+            style="border: 0; border-radius: 20px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="CustomerReview">
+        <div class="CustomerReview-main">
+          <div class="CustomerReview-left">
+            <img src="./Assets/Customer_review.jpg" alt="" />
+          </div>
+          <div class="CustomerReview-right transparent-card">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci
+              nisl, rhoncus viverra fringilla in, luctus vitae elit.
+            </p>
+            <span> Gabriel Moreira </span>
+          </div>
+        </div>
+      </section>
+      <section class="Contact">
+        <h2>Contact Us</h2>
+        <div class="Contact-main transparent-card">
+          <form action="">
+            <div class="form-input-main">
+              <div class="form-input">
+                <input type="text" placeholder="Name" />
+              </div>
+              <div class="form-input">
+                <input type="text" placeholder="Email" />
+              </div>
+            </div>
+            <div class="form-input-main">
+              <div class="form-input">
+                <input type="text" placeholder="Phone" />
+              </div>
+              <div class="form-input">
+                <input type="text" placeholder="Company" />
+              </div>
+            </div>
+            <div class="form-input">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main">
+        <div class="footer-section-1">
+          <h3>GlassM5</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea delectus
+            natus suscipit in voluptas. Et hic minus dicta quos accusantium!
+          </p>
+        </div>
+        <div class="footer-section-1 footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Jobs</a>
+            </li>
+            <li>
+              <a href="">Contacts</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section-1 footer-section">
+          <h4>Theme</h4>
+          <ul>
+            <li>
+              <a href="">Features</a>
+            </li>
+            <li>
+              <a href="">Team</a>
+            </li>
+            <li>
+              <a href="">Pricing</a>
+            </li>
+            <li>
+              <a href="">Info</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section-1 footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li>
+              <a href="">Contacts</a>
+            </li>
+            <li>
+              <a href="">Testimonials</a>
+            </li>
+            <li>
+              <a href="">Terms of Service</a>
+            </li>
+            <li>
+              <a href="">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <noscript>Please Enable Java Script </noscript>
+    <script defer src="./JS/script.js"></script>
+  </body>
+</html>
